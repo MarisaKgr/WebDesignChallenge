@@ -1,1 +1,1 @@
-# https://marisakgr.github.io/WebDesignChallenge/index.com
+# https://marisakgr.github.io/WebDesignChallenge/
