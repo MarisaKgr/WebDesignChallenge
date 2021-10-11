@@ -1,0 +1,178 @@
+body{
+    padding-top: 285px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:100%;
+}
+
+.navbar navbar-expand-lg navbar-light fixed-top{
+    background-color: lightseagreen;
+    height: 175px;
+}
+
+ 
+.navbar-brand text-white{
+    background-color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    font-size: small;
+    margin-right: 75px;
+    padding-left: 30px;
+}
+
+.collapse navbar-collapse{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 75px;
+    padding-left: 30px;
+}
+
+.navbar-nav ml-auto{
+    background-color: lightseagreen;
+    height: 100px;  
+    font-size: 50px;
+    font-weight: bolder;  
+}
+
+.container-fluid{
+    background-color: lightseagreen;
+    height: 275px;   
+    width:100%;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+.nav-link text-white{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.nav-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.nav-link dropdown-toggle text-white{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 75px;
+    padding-right: 30px;
+}
+
+.text-left{
+    color: lightseagreen;
+    margin-left: auto;
+}
+
+.col-md-12 col-md-8 col-lg-8{
+    margin-left: auto;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: lightseagreen;
+    align-content: center;
+    }   
+    
+.wrapingimage{
+    float: left;      
+    font-size: 35px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-right: 15px;
+    align-content:center;
+}
+
+.col-md-13 col-md-8 col-lg-8{
+    margin-left: auto;
+    font-size: 150px;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: lightseagreen;      
+}
+
+.text-left{
+    margin-left: auto;
+    font-size: 70px;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: lightseagreen;      
+}
+
+.para{
+    float: left;      
+    font-size: 35px;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    align-content:center;
+}
+
+.d-flex justify-content-center{
+    margin-left: 75%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (width: 600px) {
+    body {
+        color: white;    
+    }
+    .navbar-toggler{
+        display: inline-block;
+        height: 50px;
+        color: lightseagreen;
+        border-color: black;
+        margin-right: 75px;
+        padding-right: 30px;
+    }
+    .navbar-toggler-icon{
+        display: inline-block;
+        height: 75px;
+        margin-right: 75px;
+        padding-right: 30px;
+    }
+    .nav-bar header{
+        display: inline-block;
+        margin-right: 15px;
+        padding-right: 30px;
+    }
+    .navbar-brand text-white{
+        display: inline-block;
+    }
+    .navbar navbar-expand-lg navbar-light bg-light fixed-top{
+        display: inline-block;
+    }
+    .collapse navbar-collapse{
+        display: inline-block;
+        margin-right: 75px;
+        padding-right: 30px;
+    }
+    .nav button {
+        display: inline-block;
+        margin-right: 75px;
+        padding-right: 30px;
+        border-color: black;
+    }
+    .navbar-collapse{
+        background-color: white;
+        margin-right: 75px;
+        padding-right: 30px;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
